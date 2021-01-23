@@ -1,0 +1,60 @@
+*{
+    /*清除所有标签默认的外边距和内边距*/
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/backgroundphoto.jpg);
+}
+.t{
+    width: 500px;
+    margin: 30px auto;
+    font-size: 25px;
+    font-family:"宋体";
+    color: white;
+}
+tr{
+   height: 60px ;
+}
+.pic{
+    width: 30px;
+    height: 30px;
+}
+.box{
+    background-color: white;
+    width: 600px;
+    height: 490px;
+    margin: 200px auto;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 40px;
+    text-align:center;
+    background:#00000060;
+}
+.input{
+    width: 350px;
+    height: 40px;
+    font-size: 22px;
+    font-family: "宋体";
+    border: 0;
+    border-bottom: 2px solid  white;
+    background:#00000060;
+    color: white;
+}
+#btn{
+    width: 130px;
+    height: 47px;
+    background-color: rgb(200, 224, 240);
+    border: 1.5px solid white;
+    border-radius: 30px;
+    font-family: "宋体";
+    font-size: 20px;
+    font-weight: 900;
+    color:rgb(68, 66, 66);
+}
+.select{
+    text-align: left;
+    padding: 0px 20px;
+}
